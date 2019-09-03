@@ -8,7 +8,7 @@ But before we begin, I need help from all people on all different parts:
 <br><ul><li>How to create Khan Academy API?</li>
   <li>How to validate user's input? In other word, how can I create a simple login page using Khan Academy API?</li></ul>
   
-You can access all sort of different webpages in here:
+You can access all sort of different webpages in here:<br />
 <a href="/login.html">login page</a> <b>STILL DEVELOPING</a> <br />
 <a href="/waiting.html">Waiting Page</a> <b>STILL DEVELOPING</a> <br />
 <a href="/dashboard.html">User's dashboard page</a> <b>STILL DEVELOPING</a> <br />
