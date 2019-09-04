@@ -1,6 +1,6 @@
 ### Khan Academy Blogger, Community, and alternative Quizzes Website
 
----09/03/2019 09:53 PM Update Dashboard.html, Khan Academy User can enter their username and get their energy points.---
+---09/03/2019 09:53 PM Update dashboard.html, Khan Academy User can enter their username and get their energy points.---
 
 Hello and Welcome to this website. This website is designed for Blogging in Khan Academy, help all users to access this-web-only online community and alternative lessons and quizzes website.
 
