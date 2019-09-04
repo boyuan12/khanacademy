@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <body>
+  <input type="text" id="username">
+  <br/>
+  <button type="button" id="button">Submit</button>
+  <div id="points"></div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script>
+    var username = document.getElementById("username");
+    var button = document.getElementById("button");
+    var onButtonClick = function() {
+      $.getJSON("https://www.khanacademy.org/api/internal/user/profile?username=" + username.value + "&callback=?", function(data){
+    document.getElementById("points").innerHTML = (data.username + " has " + data.points + " energy points");
+}); //This line of code shows how many energy points each user has, if the username is invalid, it would do anything
+};
+button.addEventListener("click", onButtonClick);
+    </script>
+  </body>
+</html>
