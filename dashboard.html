@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <body>
+  <input type="text" id="username">
+  <br/>
+  <button type="button" id="button">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script>
+    var button = document.getElementById("button");
+    var onButtonClick = function() {
+    var username = document.getElementById("username").value;
+      $.getJSON("https://www.khanacademy.org/api/internal/user/profile?username="+username+"&callback=?", function(data){
+    alert("Whoever has "+data.points+" energy points");
+});
+};
+button.addEventListner("click", onButtonClick);
+    </script>
+  </body>
+</html>
