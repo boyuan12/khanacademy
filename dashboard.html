@@ -10,7 +10,12 @@
     var onButtonClick = function() {
     var username = document.getElementById("username").value;
       $.getJSON("https://www.khanacademy.org/api/internal/user/profile?username="+username+"&callback=?", function(data){
-    alert("Whoever has "+data.points+" energy points");
+    if (data.point = null) {
+    alert("Your Profile is not identified, please double check");
+    }
+        else {
+        alert(data.username + "has "+data.points+" energy points");
+        }
 });
 };
 button.addEventListner("click", onButtonClick);
